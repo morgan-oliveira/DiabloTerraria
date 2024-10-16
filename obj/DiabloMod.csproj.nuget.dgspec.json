@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\Morgan\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\DiabloMod\\DiabloMod.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\Morgan\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\DiabloMod\\DiabloMod.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Morgan\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\DiabloMod\\DiabloMod.csproj",
+        "projectName": "DiabloMod",
+        "projectPath": "c:\\Users\\Morgan\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\DiabloMod\\DiabloMod.csproj",
+        "packagesPath": "C:\\Users\\Morgan\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Morgan\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\DiabloMod\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Morgan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "targetAlias": "net45",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "targetAlias": "net45",
+          "dependencies": {
+            "tModLoader.CodeAssist": {
+              "target": "Package",
+              "version": "[0.1.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

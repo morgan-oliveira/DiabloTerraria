@@ -1,0 +1,23 @@
+{
+  "profiles": {
+    "Terraria": {
+      "commandName": "Executable",
+      "executablePath": "$(tMLPath)",
+      "workingDirectory": "$(TerrariaSteamPath)"
+    },
+    "TerrariaServer": {
+      "commandName": "Executable",
+      "executablePath": "$(tMLServerPath)",
+      "workingDirectory": "$(TerrariaSteamPath)"
+    }
+  },
+  "configurations": [
+    
+    {
+      "name": "C#: DiabloMod [Default Configuration]",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}\\DiabloMod.csproj"
+    }
+  ]
+}
